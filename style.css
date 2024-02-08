@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.foter{
+    width: 100%;
+    height: 35px;
+    background: #28282d;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:300px;
+    padding: 0 30px;
+    
+}
+.foter__collection{
+    display: flex;
+    align-items:center;
+
+}
+.foter__textlar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.foterbar__nomer{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.foterbar__nomer span{
+    font-size: 18px;
+}
+.select_text{
+    padding: 5px;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #353333;
+}
+.option_item{
+    border:none;
+    color: black;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.banner__item{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+.baner__2item{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.div_katalog{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+
+    background: rgb(224, 201, 74);
+    border-radius: 10px;
+}
+.banner_img {
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+   
+}
+.banner_img input{
+    padding: 10px;
+    width: 650px;
+    outline: none;
+    border: none;
+}
+.baner_iconca{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+.kirish{
+    text-align: center;
+}
+.savatcha img{
+    height: 25px;
+}
+.text__collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 13px;
+    list-style: none;
+}
+.text__item img{
+   width: 150px;
+}
+.text_mazza{
+    padding: 6px;
+    padding-left: 6px;
+    background: rgb(5,42,17);
+    background: rgb(5,42,17);
+    background: linear-gradient(90deg, rgb(52, 135, 67) 50%, rgb(39, 187, 22) 100%);
+    border-radius: 10px;
+    color: white;
+}
+.img_rasm img{
+    width: 100%;
+}
+.brentlar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    overflow: auto;
+}
+.brentlat__item{
+    width: 900px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+.brentlat__item img{
+    width: 150px;
+    height: 30px;
+
+}
+
+
+.brentlar::-webkit-scrollbar{
+    height: 6px;
+}
+.brentlat__item::-webkit-scrollbar-thumb{
+    background: #ddd;
+    border-radius: 10px;
+}
+.brent{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    overflow: auto;
+}
+.brentlat__col{
+    width: 900px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid wheat;
+    padding: 10px;
+    border-radius: 10px;
+}
+.brentlat__col img{
+    width: 70px;
+    height: 40px;
+
+}
+.brent::-webkit-scrollbar{
+    height: 6px;
+}
+.brentlat__col::-webkit-scrollbar-thumb{
+    background: #ddd;
+    border-radius: 10px;
+}
+.contenr{
+    padding: 0 50px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    border: 1px solid red;
+    
+  
+    
+    
+   
+}
+.contenr__item{
+    width: 340px;
+    height: 430px;
+    border: 1px solid rgb(191, 189, 189);
+    border-radius: 10px;
+    
+    
+}
+.rasmlar img{
+    width: 340px;
+    height: 250px;
+  
+}
+.contenr__item p{
+    font-size: 14px;
+    padding-left: 15px;
+}
+.yuldiz{
+    display: flex;
+}
+.son_savat{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.sonla p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.savat button{
+    padding: 8px 15px;
+    border-radius: 15px 15px 15px 15px;
+    background: #fff;
+    border: 2px solid goldenrod;
+    
+}
+.iconca{
+    position: sticky;
+    top: 900px;  
+    left: px;
+
+}
+.iconca_item img{
+    width: 20px;
+    height: 20px;
+}
+
+.yangilik_va_bloglar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 15px;
+    border: 1px solid red;
+}
+.yangilik__item{
+    width: 450px;
+    height: 350px;
+   
+    line-height: 2;
+}
+.yangilik__item img{
+    width: 100%;
+    border-radius: 15px;
+}
+.yangilik__item span{
+    color: rgb(99, 113, 113);
+}
+
+.ilovani_yukalang{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    
+    gap: 80px;
+}
+.ilova_item{
+    width: 90%;
+    display: flex;
+    background: #f4efef;
+    gap: 80px;
+    border-radius: 30px;
+}
+.lovalar{
+    padding: 0 100px;
+ 
+}
+.qr_kod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    gap: 20px;
+}
+.qr_kod img{
+    width: 150px;
+    height: 150px;
+}
+.yangi img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #ddd;
+    padding: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 400px;
+    background: #353333;
+    
+}
+.nav__item{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: white;
+}
+.nav__collection{
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.icon b{
+    background: #28282d;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.nav__collection a{
+    color: #fff;
+}
+.nav_bar{
+    padding: 50px;
+    color: white;
+}
